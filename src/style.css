@@ -1,0 +1,89 @@
+.container-fluid {
+  margin-top: 5% !important;
+  width: 60%;
+  margin: auto;
+  border-radius: 5px;
+  border: 2pt solid rgb(187, 187, 187);
+}
+#firstrow {
+  background-color: rgb(250, 248, 248);
+  border-radius: 5px;
+}
+.row {
+  margin-top: 1%;
+}
+#firstrow {
+  margin-top: 0 !important;
+  border-bottom: 2pt solid rgb(187, 187, 187);
+}
+input {
+  width: 100%;
+}
+
+#cardsoptions {
+  display: flex;
+  margin-top: 2%;
+}
+legend {
+  font-size: 10pt;
+}
+#cardsback {
+  padding-bottom: 1%;
+  padding-left: 2px;
+  background-color: rgb(189, 189, 189);
+  border-radius: 5px;
+}
+#message-text {
+}
+#lastrow {
+  border-top: 2pt solid rgb(187, 187, 187);
+  background-color: rgb(250, 248, 248);
+}
+button {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-right: 2%;
+  color: white;
+  background-color: rgb(160, 159, 159);
+  border-radius: 3px;
+  width: 77px;
+  border: 0pt;
+}
+#reset {
+  margin-bottom: 1%;
+  height: 37px;
+}
+p {
+  font-size: 7pt;
+  margin-top: 0%;
+}
+#reset {
+  margin-left: 50%;
+  height: 80%;
+  color: rgb(255, 255, 255) !important;
+  background: rgb(151, 151, 151);
+  border: 2px solid;
+  border-color: #616161;
+}
+#reset:hover {
+  color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 4px 16px rgb(175, 175, 175);
+}
+#submit {
+  margin-bottom: 2%;
+  height: 80%;
+  color: rgb(255, 255, 255) !important;
+  background: rgb(27, 5, 230);
+  border: 2px solid;
+  border-color: rgb(27, 5, 230);
+}
+#submit:hover {
+  color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 4px 16px rgb(27, 5, 230);
+}
+.dnone {
+  display: none;
+}
+.dshow {
+  display: block;
+}
